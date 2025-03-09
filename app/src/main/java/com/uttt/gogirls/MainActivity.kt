@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             GoGirlsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Paps Destroyer",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
