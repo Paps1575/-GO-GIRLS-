@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
             GoGirlsTheme {
                 Surface() {
                     navController= rememberNavController()
+
                     RootNavGraph(navHostController=navController)
                 }
             }
