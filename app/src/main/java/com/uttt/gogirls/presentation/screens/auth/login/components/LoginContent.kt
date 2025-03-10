@@ -124,7 +124,7 @@ fun LoginContent (navController: NavHostController, paddingValues: PaddingValues
                             .size(180.dp)
                             .align(Alignment.CenterEnd)
                             .padding(end=35.dp)
-                        , painter = painterResource(id = R.drawable.ic_launcher_background),
+                        , painter = painterResource(id = R.drawable.car_white),
                         contentDescription = "",
                     )
                 }

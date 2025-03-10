@@ -116,7 +116,7 @@ fun RegisterContent(navHostController: NavHostController, paddingValues: Padding
                     Image(
                         modifier = Modifier
                             .size(170.dp)
-                            .align(Alignment.Center), painter = painterResource(id= R.drawable.ic_launcher_background),
+                            .align(Alignment.Center), painter = painterResource(id= R.drawable.car_white),
                         contentDescription = null)
                 }
 
