@@ -48,6 +48,12 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     kapt(libs.hilt.android.compiler)
 
+    // RETROFIT
+    implementation (libs.gson)
+    implementation (libs.retrofit)
+    implementation(libs.converter.gson)
+
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
